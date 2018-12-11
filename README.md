@@ -1,6 +1,6 @@
 # Golang Minikube Seed
 
-This is a seed to showcase how to easily build and run Go applitions in
+This is a seed to showcase how to easily build and run Go applications in
 Minikube.
 
 ## Prerequisites
@@ -15,17 +15,17 @@ Check out this repository:
     $ git clone https://github.com/mkrull/golang-minikube-seed
     $ cd golang-minikube-seed
     
-Start minikube if it is not yet running:
+Start Minikube if it is not yet running:
 
     $ minikube start
 
-Once minikube is up and running make sure to use the cluster internal docker
+Once Minikube is up and running make sure to use the cluster internal Docker
 server so the images built are available within the cluster. On UNIX-like
 systems run:
 
     $ eval $(minikube docker-env)
     
-On Windows follow the official documentation on how to make the docker
+On Windows follow the official Minikube documentation on how to make the Docker
 environment available.
 
 Now build the container image:
